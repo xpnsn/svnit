@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    printf("Enter the following number \n 1 : Addition \n 2 : Subtraction \n 3 : Multiplication \n 4 : Division \n");
+    printf("Enter the following number \n 1 : Addition \n 
+    2 : Subtraction \n 3 : Multiplication \n 4 : Division \n");
     int x;
     scanf("%d", &x);
     float num1,num2;
