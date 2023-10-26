@@ -17,5 +17,5 @@ int main() {
         count++;
     }
     
-    printf("\nThe number of even number between %d and %d is %d",n1,n2,count);
+    printf("\nThe number of even number between %d and %d is %d",n1,n2,count/2);
 }

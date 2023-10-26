@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    printf("F(x) = Ax^3 - Bx^2 + Cx - D");
-    printf("Enter the value of A, B, C, D, k, and x");
+    printf("F(x) = Ax^3 - Bx^2 + Cx - D\n");
+    printf("Enter the value of A, B, C, D, k, and x\n");
     int a,b,c,d,k,x;
     scanf("%d %d %d %d %d %d", &a, &b, &c, &d, &k, &x);
     int f;
