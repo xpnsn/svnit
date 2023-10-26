@@ -12,13 +12,13 @@ int main() {
 
     int sum = 0;
 
-    printf("Enter the array elements of array 1 : ");
+    printf("Enter the array elements of array 1 : \n");
 
     for(int i=0; i<n; i++) {
         scanf("%d", &a[i]);
     }
 
-    printf("Enter the array elements of array 2 : ");
+    printf("Enter the array elements of array 2 : \n");
 
     for(int i=0; i<n; i++) {
         scanf("%d", &b[i]);
@@ -32,5 +32,5 @@ int main() {
         printf("%d   ", c[i]);
     }
 
-    printf("\nAverage value of the array is %f", (float)sum);
+    printf("\nAverage value of the array is %f\n", (float)sum/n);
 }
