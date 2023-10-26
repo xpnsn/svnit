@@ -12,7 +12,7 @@ int main() {
     
     int hcf = 1;
     
-    for(int i=1; i<n1; i++) {
+    for(int i=1; i<=n1; i++) {
         if(n1%i == 0 && n2%i == 0) {
             hcf = i;
         }
